@@ -3,21 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
     <title>TechSolutions</title>
   </head>
   <body>
-    <header class="header">
-      <a href="../index.html" class="logo">TechSolutions</a>
-      <nav>
-        <ul>
-          <li><a href="../index.html">Inicio</a></li>
-          <li><a href="../pages/servicios.html">Servicios</a></li>
-          <li><a href="../pages/productos.html">Productos</a></li>
-          <li><a href="../pages/nosotros.html">Nosotros</a></li>
-          <li><a href="../pages/contacto.html">Contacto</a></li>
-        </ul>
-      </nav>
+    <header class="navbar navbar-expand-lg header position-fixed">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <p class="logo">TechSolutions</p>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="justify-content-sm-end navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../pages/servicios.html">Servicios</a></li>
+            <li><a href="../pages/productos.html">Productos</a></li>
+            <li><a href="../pages/nosotros.html">Nosotros</a></li>
+            <li><a href="../pages/contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
       <section class="productos">
@@ -35,7 +56,7 @@
         <article class="producto-card">
           <div class="producto-image">🏢</div>
           <div class="producto-content">
-            <h3 class="producto-title">ERP BusinessPro</h3>
+            <h3 class="producto-tittle">ERP BusinessPro</h3>
             <div class="producto-price">$1,299/mes</div>
             <p class="producto-description">
               Sistema integral de gestión empresarial que centraliza todos los
@@ -55,7 +76,7 @@
         <article class="producto-card">
           <div class="producto-image">📊</div>
           <div class="producto-content">
-            <h3 class="producto-title">Analytics Dashboard</h3>
+            <h3 class="producto-tittle">Analytics Dashboard</h3>
             <div class="producto-price">$599/mes</div>
             <p class="producto-description">
               Plataforma de análisis de datos que convierte información compleja
@@ -75,7 +96,7 @@
         <article class="producto-card">
           <div class="producto-image">🛒</div>
           <div class="producto-content">
-            <h3 class="producto-title">E-Commerce Suite</h3>
+            <h3 class="producto-tittle">E-Commerce Suite</h3>
             <div class="producto-price">$399/mes</div>
             <p class="producto-description">
               Solución completa de comercio electrónico con todas las
@@ -95,7 +116,7 @@
         <article class="producto-card">
           <div class="producto-image">🔐</div>
           <div class="producto-content">
-            <h3 class="producto-title">SecureCloud Backup</h3>
+            <h3 class="producto-tittle">SecureCloud Backup</h3>
             <div class="producto-price">$199/mes</div>
             <p class="producto-description">
               Sistema de respaldo en la nube con encriptación de nivel militar
@@ -115,7 +136,7 @@
         <article class="producto-card">
           <div class="producto-image">💬</div>
           <div class="producto-content">
-            <h3 class="producto-title">ChatBot Assistant</h3>
+            <h3 class="producto-tittle">ChatBot Assistant</h3>
             <div class="producto-price">$299/mes</div>
             <p class="producto-description">
               Asistente virtual inteligente que automatiza la atención al
@@ -135,7 +156,7 @@
         <article class="producto-card">
           <div class="producto-image">📱</div>
           <div class="producto-content">
-            <h3 class="producto-title">Mobile Workforce</h3>
+            <h3 class="producto-tittle">Mobile Workforce</h3>
             <div class="producto-price">$149/mes</div>
             <p class="producto-description">
               App móvil para gestión de equipos remotos con seguimiento de
@@ -159,5 +180,10 @@
         <p>&copy; 2025 TechSolutions. Todos los derechos reservados.</p>
       </div>
     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

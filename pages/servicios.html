@@ -3,21 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
     <title>TechSolutions</title>
   </head>
   <body>
-    <header class="header">
-      <a href="../index.html" class="logo">TechSolutions</a>
-      <nav>
-        <ul>
-          <li><a href="../index.html">Inicio</a></li>
-          <li><a href="../pages/servicios.html">Servicios</a></li>
-          <li><a href="../pages/productos.html">Productos</a></li>
-          <li><a href="../pages/nosotros.html">Nosotros</a></li>
-          <li><a href="../pages/contacto.html">Contacto</a></li>
-        </ul>
-      </nav>
+    <header class="navbar navbar-expand-lg header position-fixed">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <p class="logo">TechSolutions</p>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="justify-content-sm-end navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../pages/servicios.html">Servicios</a></li>
+            <li><a href="../pages/productos.html">Productos</a></li>
+            <li><a href="../pages/nosotros.html">Nosotros</a></li>
+            <li><a href="../pages/contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
       <section class="servicios">
@@ -47,7 +68,13 @@
               <li>Mantenimiento y soporte</li>
             </ul>
           </div>
-          <div class="servicios-image">🌐</div>
+          <div class="servicios-image">
+            <img
+              src="../imagenes/desarrollo-web.webp"
+              alt="Ilustración de desarrollo web "
+              class="img-serv"
+            />
+          </div>
         </article>
 
         <article class="servicios-item reverse">
@@ -65,7 +92,13 @@
               <li>Actualizaciones continuas</li>
             </ul>
           </div>
-          <div class="servicios-image">📱</div>
+          <div class="servicios-image">
+            <img
+              src="../imagenes/aplicaciones-moviles.webp"
+              alt="Ilustración de aplicaciones móviles"
+              class="img-serv"
+            />
+          </div>
         </article>
 
         <article class="servicios-item">
@@ -83,7 +116,13 @@
               <li>Capacitación de equipos</li>
             </ul>
           </div>
-          <div class="servicios-image">💼</div>
+          <div class="servicios-image">
+            <img
+              src="../imagenes/consultoria-it.webp"
+              alt="Ilustración de consultoría IT"
+              class="img-serv"
+            />
+          </div>
         </article>
 
         <article class="servicios-item reverse">
@@ -101,7 +140,13 @@
               <li>Reportes automáticos</li>
             </ul>
           </div>
-          <div class="servicios-image">⚙️</div>
+          <div class="servicios-image">
+            <img
+              src="../imagenes/automatizacion-procesos.webp"
+              alt="Ilustración de automatización de procesos"
+              class="img-serv"
+            />
+          </div>
         </article>
       </section>
 
@@ -136,5 +181,10 @@
         <p>&copy; 2025 TechSolutions. Todos los derechos reservados.</p>
       </div>
     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
