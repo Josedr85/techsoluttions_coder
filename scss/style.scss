@@ -57,42 +57,39 @@ nav a:hover {
 /* Hero */
 
 .hero {
-  background-image: url(../imagenes/fondo.webp);
+  background-image: url(../imagenes/Fondo-hero.webp);
   background-position: center center;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-size: cover;
   width: 100%;
-  min-height: auto;
-  padding: 100px 20px;
-  text-align: center;
-  object-fit: cover;
+  height: 100vh;
+  padding: 80px;
 }
 
 .hero-content {
-  width: 90%;
-  max-width: 1200px;
-  margin: auto;
+  max-width: 500px;
+  margin-left: 40px;
+  padding-top: 80px;
 }
 
 .hero h1 {
-  font-size: 35px;
-  margin-bottom: 1rem;
   color: #fff;
   font-weight: 900;
   font-size: 60px;
-  margin-top: 120px;
+  margin-top: 50px;
 }
 
 .hero p {
-  font-size: 12px;
+  text-align: left;
   color: #fff;
-  font-size: 25px;
+  font-size: 18px;
+  margin-top: 50px;
 }
 
 .btn-hero {
   display: inline-block;
   background: linear-gradient(45deg, #667eea, #764ba2);
-  padding: 16px 32px;
+  padding: 12px 24px;
   text-decoration: none;
   border: 2px solid #fff;
   border-radius: 50px;
@@ -1009,12 +1006,21 @@ footer {
     gap: 10px;
   }
 
+  .hero {
+    text-align: center;
+  }
+
+  .hero-content {
+    max-width: 1200px;
+    margin: auto;
+  }
+
   .hero h1 {
-    font-size: 30px;
+    font-size: 35px;
   }
 
   .hero p {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .tittle {
@@ -1079,8 +1085,6 @@ footer {
   }
 
   .myv {
-    // width: 80%;
-    // margin: auto;
     line-height: 1.4;
   }
 
@@ -1114,6 +1118,22 @@ footer {
   nav ul {
     flex-direction: column;
     gap: 10px;
+  }
+  .hero {
+    text-align: center;
+  }
+
+  .hero-content {
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .hero h1 {
+    font-size: 60px;
+  }
+
+  .hero p {
+    font-size: 30px;
   }
 
   .servicios-item {
