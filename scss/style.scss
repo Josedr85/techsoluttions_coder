@@ -12,7 +12,7 @@ body {
   min-height: 100vh;
 }
 
-/* Header */
+/* *************Header************* */
 
 .header {
   width: 100%;
@@ -54,18 +54,19 @@ nav a:hover {
   transform: translateY(-5px);
 }
 
-/* Hero */
+/* ************Hero************ */
 
 .hero {
-  background-image: url(../imagenes/Fondo-hero.webp);
+  background-image: url(../imagenes/Fondohero.jpg);
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   width: 100%;
   min-height: auto;
-  padding: 100px 20px;
+  padding: 200px 20px;
   text-align: center;
   object-fit: cover;
+  filter: hue-rotate(-40deg);
 }
 
 .hero-content {
@@ -80,7 +81,7 @@ nav a:hover {
   color: #fff;
   font-weight: 900;
   font-size: 60px;
-  margin-top: 120px;
+  margin-top: 50px;
 }
 
 .hero p {
@@ -96,7 +97,7 @@ nav a:hover {
   text-decoration: none;
   border: 2px solid #fff;
   border-radius: 50px;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .btn-hero:hover {
@@ -111,7 +112,7 @@ nav a:hover {
   font-weight: bold;
 }
 
-/* section */
+/* ***************section*************** */
 .section {
   width: 100%;
   margin-top: 100px;
@@ -132,7 +133,7 @@ nav a:hover {
 }
 
 .cards {
-  width: 400px;
+  width: 350px;
   height: 400px;
   padding: 40px 20px;
   margin: 25px;
@@ -176,7 +177,7 @@ nav a:hover {
   text-align: center;
   padding: 28px 0;
 }
-/* Stats */
+/* ******************Stats****************** */
 .stats {
   display: flex;
   align-items: center;
@@ -197,13 +198,13 @@ nav a:hover {
   }
 }
 
-/* Servicios */
+/* ****************Servicios**************** */
 .servicios {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   width: 100%;
   min-height: auto;
   text-align: center;
-  padding: 40px 0;
+  padding: 100px 0;
 }
 
 .servicios_contenedor {
@@ -225,7 +226,7 @@ nav a:hover {
   font-size: 25px;
 }
 
-/* Servicios-Container */
+/* ***Servicios-Container*** */
 .servicios-container {
   max-width: 1200px;
   width: 90%;
@@ -300,7 +301,7 @@ nav a:hover {
   opacity: 0.8;
 }
 
-/* Sección precios */
+/* ***Sección precios*** */
 .precio-section {
   max-width: 1200px;
   width: 90%;
@@ -355,12 +356,13 @@ nav a:hover {
   margin: 10px 0;
 }
 
+/* ****************Productos**************** */
 .productos {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   width: 100%;
   min-height: auto;
   text-align: center;
-  padding: 40px 0;
+  padding: 100px 0;
 }
 
 .productos-contenedor {
@@ -465,12 +467,13 @@ nav a:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
+/* ****************Nosotros**************** */
 .nosotros {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   width: 100%;
   min-height: auto;
   text-align: center;
-  padding: 40px 0;
+  padding: 100px 0;
 }
 
 .nosotros-contenedor {
@@ -748,12 +751,13 @@ nav a:hover {
   z-index: 2;
 }
 
+/* ****************Contacto**************** */
 .contacto {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   width: 100%;
   min-height: auto;
   text-align: center;
-  padding: 40px 0;
+  padding: 100px 0;
 }
 
 .contacto-contenedor {
@@ -1009,6 +1013,10 @@ footer {
     gap: 10px;
   }
 
+  .hero {
+    padding: 160px 20px;
+  }
+
   .hero h1 {
     font-size: 30px;
   }
@@ -1025,8 +1033,13 @@ footer {
     font-size: 16px;
   }
 
+  .btn-hero {
+    margin-top: 10px;
+    padding: 8px 16px;
+  }
+
   .cta-button {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   button {
